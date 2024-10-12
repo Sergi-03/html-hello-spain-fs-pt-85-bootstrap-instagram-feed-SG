@@ -9,6 +9,57 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+  <style>
+    .container{
+      width: 400px;
+      position: relative;
+      margin-top: 40px;
+    }
+    .post-1-title{
+      position: relative;
+      margin-bottom: -20px;
+      font-size: 20px;
+    }
+    .post-text-1{
+      margin-top: -13px;
+    }
+    .post-1-date{
+      position: relative;
+    margin-left: 331px;
+    margin-bottom: -40px;
+    }
+    .post-2-title{
+      position: relative;
+      margin-bottom: -20px;
+      font-size: 20px;
+    }
+    .post-text-2{
+      margin-top: -13px;
+    }
+    .post-2-date{
+      position: relative;
+    margin-left: 331px;
+    margin-bottom: -40px;
+    }
+    .post-3-title{
+      position: relative;
+      margin-bottom: -20px;
+      font-size: 20px;
+    margin-left: -9px;
+    }
+    .post-text-3{
+      margin-top: -13px;
+      margin-left: -8px;
+    }
+    .post-3-date{
+      position: relative;
+    margin-left: 323px;
+    margin-bottom: -40px;
+    }
+    .post-3-likes{
+      margin-left: -8px;
+    }
+  </style>
     <nav class="navbar bg-body-tertiary">
         <div class="container-fluid">
             <div class="d-flex w-100 justify-content-between">
@@ -34,12 +85,12 @@
                       <textarea class="form-control" placeholder="Add the caption of your post here"></textarea>
                       <div class="container text-center">
                         <div class="row">
-                          <div class="col position-relative" style="left: -100px">
+                          <div class="col position-relative" style="left: -112px">
                             <button class=" p-0 m-0 border rounded btn-light">
                               <i class="fa-solid fa-camera"></i>
                           </button>
                           </div>
-                          <div class="col position-relative" style="left: -288px">
+                          <div class="col position-relative" style="left: -272px">
                             <button class="p-0 m-0 border rounded btn-light"><i class="fa-solid fa-location-dot"></i></button>
                           </div>
                         </div>
@@ -77,8 +128,43 @@
     <li class="page-item"><a class="page-link" href="page2.html"><i class="fa-solid fa-square"></i></a></li>
   </ul>
 </nav>
-
+<div class="container">
+  <div class="row">
+    <div>
+      <h2 class="post-1-title">My crazy dog Spark!</h2>
+      <span class="post-1-date">08/26</span>
+    </div>
+    <div>
+    <img src="https://images.unsplash.com/photo-1543466835-00a7907e9de1?ixlib=rb-1.2.1&w=1080&fit=max&q=80&fm=jpg&crop=entropy&cs=tinysrgb" width="100%" alt="">
+    </div>
+    <div>
+    <p><strong>204 Likes</strong></p>
+    <p class="post-text-1">This is an example of a very good photo that you can post on instagram</p>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div>
+          <h2 class="post-2-title">The greatness of Croatia</h2>
+          <span class="post-2-date">04/09</span>
+        </div>
+        <div>
+        <img src="https://wallpaperaccess.com/full/1149888.jpg" width="100%" alt="">
+        </div>
+        <p><strong>26985 Likes</strong></p>
+        <p class="post-text-2">This is an example of a very good photo that you can post on instagram</p>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div>
+            <h2 class="post-3-title">Amazing GOAL by Cristiano!</h2>
+            <span class="post-3-date">06/10</span>
+          </div>
+          <div>
+          <img src="https://i.pinimg.com/736x/af/03/e8/af03e8f301698efda8006b4da49ebf52.jpg" style="margin-left: -10px;" width="100%" alt="">
+          </div>
+          <p class="post-3-likes"><strong>204 Likes</strong></p>
+          <p class="post-text-3">This is an example of a very good photo that you can post on instagram</p>
+        </div>
       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
 </html>
-
